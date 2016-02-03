@@ -87,6 +87,8 @@ ch <- initTrend()
 trend.baseline <- getTrend(terms['baseline'], date = 'today 24-m')
 trends <- trend.baseline
 
+trend.interval <- 'today 6-m'
+
 scale <- FALSE
 for (term in terms[-1])
 {
